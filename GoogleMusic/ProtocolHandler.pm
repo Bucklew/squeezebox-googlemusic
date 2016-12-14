@@ -2,7 +2,7 @@ package Plugins::GoogleMusic::ProtocolHandler;
 
 use strict;
 use warnings;
-use base qw(Slim::Player::Protocols::HTTP);
+use base qw(Slim::Player::Protocols::HTTPS);
 
 use Scalar::Util qw(blessed);
 use Slim::Player::Playlist;
