@@ -8,15 +8,15 @@
 
 	<plugins>
 
-		<plugin name="GoogleMusic" version="0.7.0" minTarget="7.5" maxTarget="*">
+		<plugin name="GoogleMusic" version="0.7.1" minTarget="7.5" maxTarget="*">
 			<title lang="EN">3rd Party Google Play Music Plugin</title>
 			<desc  lang="EN">Google Music plugin. Listen to your Google Music library.</desc>
 			<title lang="DE">Google Play Music Plugin</title>
 			<desc  lang="DE">Google Music plugin. All Access inklusive.</desc>
 			<creator>Steffen Storbeck</creator>
 			<email>Bucklew@gmail.com</email>
-			<url>https://bucklew.github.io/squeezebox-googlemusic/repository/GoogleMusic-v0.7.0.zip</url>
-			<sha>084ce4df57b9984ede95fb684cb81c56772793c0</sha>
+			<url>https://bucklew.github.io/squeezebox-googlemusic/repository/GoogleMusic-v0.7.1.zip</url>
+			<sha>2d52c56db4935cd1a7954864a9c9d8da9733d68d</sha>
 			<link>https://bucklew.github.io/squeezebox-googlemusic/repository/</link>
 		</plugin>
 
