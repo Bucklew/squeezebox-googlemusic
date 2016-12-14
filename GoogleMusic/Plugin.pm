@@ -58,7 +58,7 @@ sub initPlugin {
 	$VERSION = $class->_pluginDataFor('version');
 
 	# Chech version of gmusicapi first
-	if (!blessed($googleapi) || (Plugins::GoogleMusic::GoogleAPI::get_version() lt '4.0.0')) {
+	if (!blessed($googleapi)) {
 		$class->SUPER::initPlugin(
 			tag    => 'googlemusic',
 			feed   => \&badVersion,
@@ -89,7 +89,8 @@ sub initPlugin {
 	# exception. Catch it to allow the plugin to be started.
 	eval {
 		$googleapi->login($prefs->get('username'),
-						  decode_base64($prefs->get('password')));
+			decode_base64($prefs->get('password')),
+                        $prefs->get('device_id'));
 	};
 	if ($@) {
 		$log->error("Not able to login to Google Play Music: $@");
