@@ -30,7 +30,7 @@ $prefs->init({
 	disable_ssl => 0,
 	my_music_album_sort_method => 'artistyearalbum',
 	all_access_album_sort_method => 'none',
-	max_search_items => 100,
+	max_search_items => 500,
 	max_artist_tracks => 25,
 	max_related_artists => 10,
 });
