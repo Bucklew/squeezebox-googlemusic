@@ -8,7 +8,7 @@
 
 	<plugins>
 
-		<plugin name="GoogleMusic" version="0.7.0" minTarget="7.9" maxTarget="*">
+		<plugin name="GoogleMusic" version="0.7.0" minTarget="7.5" maxTarget="*">
 			<title lang="EN">3rd Party Google Play Music Plugin</title>
 			<desc  lang="EN">Google Music plugin. Listen to your Google Music library.</desc>
 			<title lang="DE">Google Play Music Plugin</title>
