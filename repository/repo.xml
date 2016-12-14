@@ -3,19 +3,19 @@
 <extensions>
 
 	<details>
-		<title lang="EN">Hechtus' Squeezecenter Plugins</title>
+		<title lang="EN">Bucklews Squeezecenter Plugins</title>
 	</details>	
 
 	<plugins>
 
-		<plugin name="GoogleMusic" version="0.4.1" minTarget="7.5" maxTarget="*">
+		<plugin name="GoogleMusic" version="0.7.0" minTarget="7.9" maxTarget="*">
 			<title lang="EN">3rd Party Google Play Music Plugin</title>
 			<desc  lang="EN">Google Music plugin. Listen to your Google Music library.</desc>
-			<creator>Ronald Hecht</creator>
-			<email>ronald.hecht@gmx.de</email>
-			<url>http://hechtus.github.io/squeezebox-googlemusic/repository/GoogleMusic-v0.4.1.zip</url>
+			<creator>Steffen Storbeck</creator>
+			<email>Bucklew@gmail.com</email>
+			<url>https://bucklew.github.io/squeezebox-googlemusic/repository/GoogleMusic-v0.7.0.zip</url>
 			<sha>432daa80942abba8e5e9e6a04804520d955d2ae7</sha>
-			<link>http://hechtus.github.io/squeezebox-googlemusic/</link>
+			<link>https://bucklew.github.io/squeezebox-googlemusic/repository/</link>
 		</plugin>
 
 	</plugins>
